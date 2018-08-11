@@ -1,7 +1,7 @@
 # Submission for Coursera Data Science Specialization  
 # Peer Graded Assignment: Getting and Cleaning Data Course Project
 # This script requires dplyr package
-
+library(dplyr)
 # Read feature list and activity names
 features_list <- read.table("features.txt", col.names = c("no","features"))
 activity <- read.table("activity_labels.txt", col.names = c("label", "activity"))
